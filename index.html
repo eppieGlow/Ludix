@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Ludix</title>
+  <link rel="icon" type="image/vnd.icon" href="../images/Logo_ludix.ico" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+
+    <script src="video.js"></script>
+
+    <video id="introVideo" class="intro-video" autoplay muted>
+        <source src="../Vidéos/vid_intro_Ludix.mp4" type="video/mp4">
+        Votre navigateur ne supporte pas la vidéo. Veuillez patienter...
+      </video>
+      
+  <!-- NAVBAR -->
+  <div class="navbar">
+    <div class="title"><a href="index.html"><img src="../images/Logo_ludix_bgr.png">udix</a></div>
+
+    <div class="hamburger">
+        <label>
+          <input type="checkbox" id="toggleMenu" />
+          <svg viewBox="0 0 32 32">
+            <path class="line line-top-bottom" d="M27 10 13 10C10.8 10 9 8.2 9 6C9 3.5 10.8 2 13 2C15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30C23.2 30 25 28.2 25 26C25 23.8 23.2 22 21 22L7 22" />
+            <path class="line" d="M7 16 27 16" />
+          </svg>
+        </label>
+      </div>      
+
+
+    <!-- MENU CIRCULAIRE -->
+    <div class="menu" id="circularMenu">
+      <div class="menu-item">
+        <div class="icon">🏠</div>
+        <span class="tooltip">Home</span>
+      </div>
+      <div class="menu-item">
+        <div class="icon">💬</div>
+        <span class="tooltip">Messages</span>
+      </div>
+      <div class="menu-item">
+        <div class="icon">👤</div>
+        <span class="tooltip">User</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
